@@ -3,11 +3,11 @@ Remove entries from a list of numbers accordingly to specific conditions.
 
 
 # Running the Code
-:: This routine will create the files to send infromation to ::
-::  Version 1.1 :: 
-::  Created by ALexandre Campino :: 
-::  Date Created 12/11/2017 :: 
-::  Date Reviewed 02/02/2018 :: 
+#### This routine will create the files to send infromation to 
+#### Version 1.1
+#### Created by ALexandre Campino 
+#### Date Created 12/11/2017  
+#### Date Reviewed 02/02/2018 
 
 _________________________________________________________________________________________________________________
 
@@ -23,6 +23,17 @@ C:\Users\username\Desktop\Entry-Removal-From-List\runSetListsAdvanced.bat
 or:
 
 C:\Users\username\Desktop\Entry-Removal-From-List\runSetListsStandard.bat
+
+Each routine will have different output
+
+SetListsAdvanced: 
+		- Will only keep entries of excel file that are present on the .csv files. 
+		- Removes entries from both files that are present on the toRemove.txt. 
+		- Removes any entries with the wrong domain.
+
+SetListsAdvanced: 
+		- Removes entries from both files that are present on the toRemove.txt. 
+		- Removes any entries with the wrong domain.
 
 *This is a standalone .bat file. It should run the whole routine, as long as the file & folder structure is 
 kept the same. Once it is clicked a CMD window will pop-up. Ignore warning that says:
