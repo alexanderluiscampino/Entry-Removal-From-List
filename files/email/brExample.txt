@@ -1,0 +1,5 @@
+person1@hotmail.com,id1,link1,link2
+person2@gmx.de,id2,link1,link2
+person3@online.de,id3,link1,link2
+person4@gmail.com,id4,link1,link2
+person5@gmail.com,id5,link1,link2
